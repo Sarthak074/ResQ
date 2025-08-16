@@ -1,97 +1,78 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🛡️ ResQ – AI Powered Safety App
 
-# Getting Started
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=000)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=fff)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=fff)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=fff)
+![Gemini AI](https://img.shields.io/badge/Gemini%20AI-4285F4?style=for-the-badge&logo=google&logoColor=fff)
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+> **ResQ** is an **AI-powered personal safety app** built with **React Native, Node.js, Express.js, and PostgreSQL**.  
+> Designed to enhance safety for **women and children**, ResQ delivers **real-time safety alerts, AI-driven risk detection, SOS emergency response, and crime heatmaps** — all in one platform.
 
-## Step 1: Start Metro
+📅 **Demo Link:** [ResQ Demo (Jan 2025)](https://your-demo-link.com)  
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+---
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## ✨ Features
 
-```sh
-# Using npm
-npm start
+- 🚨 **Instant SOS Response** — one-tap emergency alert with location sharing
+- 🔐 **Real-time Safety Alerts** — get notified of nearby risks or unsafe zones
+- 🧠 **AI-driven Risk Detection** — Gemini AI assistant for chat-based safety guidance
+- 🗺 **Advanced Geolocation Tracking** — continuous live tracking for safety
+- 🗂 **Crime Heatmaps** — visualize high-risk areas with aggregated community reports
+- 👥 **Community Reporting** — users can share incidents to inform others
+- 📞 **Emergency Communication** — Twilio integration for instant SMS/call alerts
 
-# OR using Yarn
-yarn start
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** React Native (Expo / CLI)
+- **Backend:** Node.js + Express.js
+- **Database:** PostgreSQL
+- **AI:** Gemini AI (chat & risk detection)
+- **Communication:** Twilio (SMS, voice)
+- **Maps:** Google Maps API / Mapbox
+- **Auth:** JWT or OAuth2
+- **Hosting:** (Heroku / Render / AWS / Firebase — depending on your setup)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/yourusername/resq.git
+cd resq
+
 ```
+### client
+cd client
+npm install
 
-## Step 2: Build and run your app
+### server
+cd ../server
+npm install
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### Backend
+cd server
+npm run dev
 
-### Android
+### Mobile app (with Expo)
+cd ../client
+npx expo start
 
-```sh
-# Using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
+## Demo Link
+https://drive.google.com/file/d/1oV5ADZV5xPdZWAtc0Pq2KIVp82-BH_ph/view
 
-### iOS
+## 🖼 ScreenShots
+<img width="312" height="695" alt="image" src="https://github.com/user-attachments/assets/c4ff4cfd-bd5c-4fe6-9b87-9b92a1e67104" />
+<img width="295" height="662" alt="image" src="https://github.com/user-attachments/assets/64c09aa1-8667-4785-8ad6-153702673f98" />
+<img width="310" height="697" alt="image" src="https://github.com/user-attachments/assets/a79472c7-8547-474e-bd65-b399ebcd1069" />
+<img width="313" height="703" alt="image" src="https://github.com/user-attachments/assets/ddf8c01a-342b-436a-83ce-60316c4b82a1" />
+<img width="312" height="696" alt="image" src="https://github.com/user-attachments/assets/55c80616-842f-41be-955e-4a2727db01f0" />
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
 
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

@@ -10,8 +10,6 @@
 > **ResQ** is an **AI-powered personal safety app** built with **React Native, Node.js, Express.js, and PostgreSQL**.  
 > Designed to enhance safety for **women and children**, ResQ delivers **real-time safety alerts, AI-driven risk detection, SOS emergency response, and crime heatmaps** — all in one platform.
 
-📅 **Demo Link:** [ResQ Demo (Jan 2025)](https://your-demo-link.com)  
-
 ---
 
 ## ✨ Features

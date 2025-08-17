@@ -31,9 +31,7 @@
 - **Database:** PostgreSQL
 - **AI:** Gemini AI (chat & risk detection)
 - **Communication:** Twilio (SMS, voice)
-- **Maps:** Google Maps API / Mapbox
-- **Auth:** JWT or OAuth2
-- **Hosting:** (Heroku / Render / AWS / Firebase — depending on your setup)
+- **Maps:** Openstreet maps
 
 ---
 
